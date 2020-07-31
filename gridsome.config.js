@@ -4,26 +4,26 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const path = require('path')
+const path = require("path")
 
-const isProd = process.env.NODE_ENV === 'production'
+const isProd = process.env.NODE_ENV === "production"
 
 module.exports = {
-  siteName: 'Unilever',
-  plugins: [
-  ],
-  chainWebpack (config) {
+  siteName: "Contentstack Gridsome sample",
+  plugins: [],
+  chainWebpack(config) {
     // Load variables for all vue-files
-    const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
+    const types = ["vue-modules", "vue", "normal-modules", "normal"]
 
-    types.forEach(type => {
-      config.module.rule('scss').oneOf(type).use('style-resource')
-      .loader('style-resources-loader')
-      .options({
-        patterns: [
-          path.resolve(__dirname, './src/assets/css/main.scss'),
-        ],
-      })
+    types.forEach((type) => {
+      config.module
+        .rule("scss")
+        .oneOf(type)
+        .use("style-resource")
+        .loader("style-resources-loader")
+        .options({
+          patterns: [path.resolve(__dirname, "./src/assets/css/main.scss")],
+        })
     })
-  }
+  },
 }

@@ -1,7 +1,7 @@
 export default {
   "trailingSlash": true,
   "pathPrefix": "",
-  "titleTemplate": "%s - Unilever",
+  "titleTemplate": "%s - Contentstack Gridsome sample",
   "siteUrl": "",
   "version": "0.7.18",
   "catchLinks": true

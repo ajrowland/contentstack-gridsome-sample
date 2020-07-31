@@ -1,5 +1,5 @@
 {
-  "name": "unilever-static-poc",
+  "name": "contentstack-gridsome-sample",
   "private": true,
   "scripts": {
     "build": "gridsome build",

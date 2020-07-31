@@ -8,55 +8,13 @@ $mq-breakpoints: (
 );
 
 $colour-white: #fff;
-$colour-grey: #73706e;
-$colour-blue-light: #005eef;
-$colour-blue-dark: #1f36c7;
-$colour-purple: #7705bc;
+$colour-grey: #666;
+$colour-blue-light: #0055ee;
+$colour-blue-dark: #1f66cc;
+$colour-purple: #7755cc;
 
 * {
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: UnileverShilling;
-  src: url("~@/assets/fonts/UnileverShilling.eot");
-  src: url("~@/assets/fonts/UnileverShilling.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: UnileverShillingMedium;
-  src: url("~@/assets/fonts/UnileverShillingMedium.eot");
-  src: url("~@/assets/fonts/UnileverShillingMedium.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: UnileverShillingBold;
-  src: url("~@/assets/fonts/UnileverShillingBold.eot");
-  src: url("~@/assets/fonts/UnileverShillingBold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: UnileverIllustrative;
-  src: url("~@/assets/fonts/unileverillustrativebeta-webfont.eot");
-  src: url("~@/assets/fonts/unileverillustrativebeta-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("~@/assets/fonts/unileverillustrativebeta-webfont.woff") format("woff"),
-    url("~@/assets/fonts/unileverillustrativebeta-webfont.ttf")
-      format("truetype"),
-    url("~@/assets/fonts/unileverillustrativebeta-webfont.svg#unilever_illustrative_betaRg")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 
 html,

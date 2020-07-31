@@ -1,6 +1,6 @@
-# Unilever static site
+# Contentstack Gridsome sample
 
-This generates a build against ContentStack.
+This generates a static site against ContentStack.
 
 ## Install
 

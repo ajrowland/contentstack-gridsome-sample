@@ -30,7 +30,7 @@ body {
   color: $colour-grey;
   padding: 0;
   margin: 0;
-  font-family: UnileverShilling, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1;
 
   @include mq($from: tablet) {
@@ -85,7 +85,7 @@ main {
 
   h1,
   h2 {
-    font-family: UnileverShillingBold, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: $colour-blue-dark;
   }
 
@@ -105,7 +105,7 @@ main {
   }
 
   .intro p {
-    font-family: UnileverShillingMedium, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 
     @include mq($from: tablet) {
